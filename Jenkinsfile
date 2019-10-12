@@ -3,7 +3,7 @@ pipeline {
   agent any
 
   environment {
-    registry = "docker.io/<user Name>/<image Name>"
+    registry = "docker.io/sindujangp/sample"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
